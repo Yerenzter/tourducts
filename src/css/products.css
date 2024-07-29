@@ -1,0 +1,21 @@
+.broom-banner {
+    background-image: url('../assets/broom-banner.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hats-banner {
+    background-image: url('../assets/hats-banner.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.weaving-banner {
+    background-image: url('../assets/weaving-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

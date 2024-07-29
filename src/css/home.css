@@ -1,0 +1,5 @@
+.welcome-bottom {
+    background-image: url('../assets/welcome.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;   
+}

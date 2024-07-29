@@ -1,0 +1,48 @@
+.trois-banner {
+    background-image: url('../assets/trois-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.linaw-balud-banner {
+    background-image: url('../assets/linaw-balud-banner.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trois-1 {
+    background-image: url('../assets/trois-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trois-2 {
+    background-image: url('../assets/trois-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.linaw-balud-1 {
+    background-image: url('../assets/linaw-balud-1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.linaw-balud-2 {
+    background-image: url('../assets/linaw-balud-2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.linaw-balud-3 {
+    background-image: url('../assets/linaw-balud-banner.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
