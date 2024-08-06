@@ -1,0 +1,28 @@
+#attraction-hamtic,
+#attraction-belison,
+#attraction-sibalom,
+#attraction-patnongon {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#attraction-hamtic {
+  background-image: url("../assets/sta-monica-church.jpeg");
+}
+
+#attraction-belison {
+  background-image: url("../assets/vista-paloma.jpeg");
+}
+
+#attraction-sibalom {
+  background-image: url("../assets/queen-elizabeth.png");
+}
+
+#attraction-patnongon {
+  background-image: url("../assets/trois.jpg");
+}
+
+.attraction-banner-backdrop {
+  backdrop-filter: brightness(64%);
+}

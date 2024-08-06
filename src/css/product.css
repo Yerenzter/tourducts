@@ -1,0 +1,12 @@
+#product-hamtic,
+#product-belison,
+#product-sibalom,
+#product-patnongon {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product-sibalom {
+    background-image: url("../assets/parangabuhian.jpg");
+}

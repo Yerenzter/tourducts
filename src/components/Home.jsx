@@ -5,6 +5,7 @@ import Hamtic from "../assets/logo-hamtic.png";
 import Belison from "../assets/logo-belison.png";
 import Sibalom from "../assets/logo-sibalom.png";
 import Patnongon from "../assets/logo-patnongon.png";
+import Information from "./Information";
 
 export default function Home() {
   useEffect(() => {
@@ -98,7 +99,7 @@ export default function Home() {
 
           <div
             id="item-patnongon"
-            className="col s12 item-box relative"
+            className="col s12 item-box relative mb-24"
             onClick={() => (window.location.href = "/patnongon")}
           >
             <div className="row items-center item-box p-3 waves-effect waves-light">
@@ -120,9 +121,8 @@ export default function Home() {
         </div>
       </div>
       <div id="information" className="col s12 h-screen bg-orange-500 p-10">
-        Information
+        <Information/>
       </div>
     </>
   );
 }
-1;
