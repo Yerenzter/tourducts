@@ -1,12 +1,9 @@
 import Home from "./Home";
-import Products from "./Products";
-import Attractions from "./Attractions";
 import Start from "./Start";
-import Login from "./Login";
 
-import Brooms from "./Products/Brooms";
+import Hamtic from "./Hamtic";
+import Belison from "./Belison";
+import Sibalom from "./Sibalom";
+import Patnongon from "./Patnongon";
 
-import Trois from "./Attractions/Trois";
-import LinawBalud from "./Attractions/LinawBalud";
-
-export { Home, Products, Attractions, Start, Brooms, Trois, LinawBalud, Login};
+export { Home, Start, Hamtic, Belison, Sibalom, Patnongon };

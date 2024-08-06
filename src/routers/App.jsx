@@ -1,29 +1,26 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
-  Attractions,
-  Brooms,
+  Belison,
+  Hamtic,
   Home,
-  LinawBalud,
-  Login,
-  Products,
+  Patnongon,
+  Sibalom,
   Start,
-  Trois,
 } from "../components";
-import Layout from "./Layout";
+import Back from "./Back";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/getting-started" element={<Start />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/attractions" element={<Attractions />} />
-          <Route path="/products/brooms" element={<Brooms />} />
-          <Route path="/attractions/trois" element={<Trois />} />
-          <Route path="/attractions/linaw-balud" element={<LinawBalud />} />
+        <Route index element={<Home />} />
+        <Route path="getting-started" element={<Start />} />
+
+        <Route path="/" element={<Back />}>
+          <Route path="hamtic" element={<Hamtic />} />
+          <Route path="belison" element={<Belison />} />
+          <Route path="sibalom" element={<Sibalom />} />
+          <Route path="patnongon" element={<Patnongon />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,28 +1,26 @@
-import Logo from "../assets/logo.jpg";
+import Logo from "../assets/logo-app.png";
 
 export default function Start() {
   return (
-    <div className="grid h-screen justify-items-center items-center">
-      <div className="grid justify-items-center">
-        <img
-          src={Logo}
-          className="rounded-full mb-5"
-          style={{ border: "solid #000 3px" }}
-          alt="logo"
-          width={120}
-          height={120}
-        />
-        <h1 className="text-center text-5xl mb-3">
-          <strong>
-            <span className="text-white">Tourducts&nbsp;</span>
-            <span className="text-black">App</span>
-          </strong>
+    <div className="row h-screen bg-orange-500 grid items-center content-center">
+      <div className="col s12 grid justify-items-center items-center">
+        <img src={Logo} alt="logo" width={150} height={150} />
+        <h1>
+          <span className="text-white">Tourducts &nbsp;</span>
+          <span className="text-black">App</span>
         </h1>
-        <p style={{ letterSpacing: "2px" }}>Tourist Application</p>
+        <p className="text-white text-left">
+          Tourists / Native Products Application
+        </p>
       </div>
 
-      <div className="p-10">
-        <button className="btn-large bg-blue-800 waves-effect rounded-full" onClick={() => window.location.href='/'}>Get Started</button>
+      <div className="col s12 grid justify-items-center">
+        <button
+          className="btn rounded waves-effect bg-orange-950 text-white"
+          onClick={() => (window.location.href = "/")}
+        >
+          Get Started!
+        </button>
       </div>
     </div>
   );

@@ -1,5 +1,29 @@
-.welcome-bottom {
-    background-image: url('../assets/welcome.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;   
+#item-hamtic,
+#item-belison,
+#item-sibalom,
+#item-patnongon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#item-hamtic {
+  background-image: url("../assets/logo-hamtic.png");
+}
+
+#item-belison {
+  background-image: url("../assets/logo-belison.png");
+}
+
+#item-sibalom {
+  background-image: url("../assets/logo-sibalom.png");
+}
+
+#item-patnongon {
+  background-image: url("../assets/logo-patnongon.png");
+}
+
+.item-box {
+  backdrop-filter: brightness(50%);
+  border-radius: 18px;
 }
