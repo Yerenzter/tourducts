@@ -17,6 +17,7 @@ import {
   Start,
 } from "../components";
 import Back from "./Back";
+import Patnongonroducts from "../components/Products/PatnongonProducts";
 
 export default function App() {
   return (
@@ -55,6 +56,7 @@ export default function App() {
             path="/patnongon/attractions/pictures"
             element={<PatnongonPictures />}
           />
+          <Route path="/patnongon/products" element={<Patnongonroducts />} />
         </Route>
       </Routes>
     </BrowserRouter>

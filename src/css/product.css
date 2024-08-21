@@ -8,5 +8,9 @@
 }
 
 #product-sibalom {
+    background-image: url("../assets/gemstone.jpeg");
+}
+
+#product-patnongon {
     background-image: url("../assets/parangabuhian.jpg");
 }

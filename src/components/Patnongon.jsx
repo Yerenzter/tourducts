@@ -18,7 +18,10 @@ export default function Patnongon() {
           <strong>Attractions</strong>
         </button>
 
-        <button className="btn waves-effect bg-orange-950 text-white rounded w-full justify-center mb-3">
+        <button
+          className="btn waves-effect bg-orange-950 text-white rounded w-full justify-center mb-3"
+          onClick={() => (window.location.href = "/patnongon/products")}
+        >
           <strong>Native Products</strong>
         </button>
       </div>
