@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo-hamtic.png";
 
 export default function Hamtic() {
@@ -11,16 +12,20 @@ export default function Hamtic() {
       </div>
 
       <div className="col s12 h-1/4">
-        <button
-          className="btn waves-effect bg-orange-950 text-white rounded w-full justify-center mb-3"
-          onClick={() => (window.location.href = "/hamtic/attractions")}
-        >
-          <strong>Attractions</strong>
-        </button>
+        <Link to="/hamtic/attractions">
+          <button
+            className="btn waves-effect bg-orange-950 text-white rounded w-full justify-center mb-3"
+            type="button"
+          >
+            <strong>Attractions</strong>
+          </button>
+        </Link>
 
-        <button className="btn waves-effect bg-orange-950 text-white rounded w-full justify-center mb-3">
-          <strong>Native Products</strong>
-        </button>
+        <Link to="/hamtic/products">
+          <button className="btn waves-effect bg-orange-950 text-white rounded w-full justify-center mb-3">
+            <strong>Native Products</strong>
+          </button>
+        </Link>
       </div>
     </div>
   );

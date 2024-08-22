@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo-app.png";
 
 export default function Start() {
@@ -15,11 +16,10 @@ export default function Start() {
       </div>
 
       <div className="col s12 grid justify-items-center">
-        <button
-          className="btn rounded waves-effect bg-orange-950 text-white text-2xl"
-          onClick={() => (window.location.href = "/")}
-        >
-          <strong>Get Started!</strong>
+        <button className="btn rounded waves-effect bg-orange-950 text-white text-2xl" type="button">
+          <Link to="/">
+            <strong>Get Started!</strong>
+          </Link>
         </button>
       </div>
     </div>

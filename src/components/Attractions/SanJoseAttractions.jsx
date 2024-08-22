@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function BelisonAttractions() {
+export default function SanJoseAttractions() {
   return (
     <div className="row p-10 gap-y-24">
       <div className="col s9">
@@ -11,7 +11,7 @@ export default function BelisonAttractions() {
 
       <div className="col s12 text-center">
         <h2 className="text-white text-2xl">
-          <strong>MUNICIPALITY OF BELISON</strong>
+          <strong>MUNICIPALITY OF SAN JOSE</strong>
         </h2>
         <h3 className="text-white">
           <strong>ATTRACTIONS</strong>
@@ -19,21 +19,21 @@ export default function BelisonAttractions() {
       </div>
 
       <div className="col s12">
-        <Link to="/belison/attractions/vista-paloma">
+        <Link to="/san-jose/attractions/ebj-freedom-park">
           <button
             className="btn waves-effect bg-orange-950 text-white w-full justify-center mb-3"
             type="button"
           >
-            <strong>VISTA PALOMA BEACH RESORT</strong>
+            <strong>EBJ FREEDOM PARK</strong>
           </button>
         </Link>
 
-        <Link to="/belison/attractions/happy-sunset">
+        <Link to="/san-jose/attractions/esplanade">
           <button
             className="btn waves-effect bg-orange-950 text-white w-full justify-center mb-3"
             type="button"
           >
-            <strong>HAPPY SUNSET RECREATIONAL RESORT</strong>
+            <strong>SAN JOSE ESPLANADE</strong>
           </button>
         </Link>
       </div>

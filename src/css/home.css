@@ -1,7 +1,8 @@
 #item-hamtic,
 #item-belison,
 #item-sibalom,
-#item-patnongon {
+#item-patnongon,
+#item-san-jose {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,6 +22,10 @@
 
 #item-patnongon {
   background-image: url("../assets/logo-patnongon.png");
+}
+
+#item-san-jose {
+  background-image: url("../assets/logo-san-jose.png");
 }
 
 .item-box {

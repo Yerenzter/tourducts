@@ -1,7 +1,8 @@
 #attraction-hamtic,
 #attraction-belison,
 #attraction-sibalom,
-#attraction-patnongon {
+#attraction-patnongon,
+#attraction-esplanade {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,6 +22,10 @@
 
 #attraction-patnongon {
   background-image: url("../assets/trois.jpg");
+}
+
+#attraction-esplanade {
+  background-image: url("../assets/san-jose-esplanade.jpg");
 }
 
 .attraction-banner-backdrop {

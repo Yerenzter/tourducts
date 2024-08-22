@@ -5,7 +5,9 @@ import Hamtic from "../assets/logo-hamtic.png";
 import Belison from "../assets/logo-belison.png";
 import Sibalom from "../assets/logo-sibalom.png";
 import Patnongon from "../assets/logo-patnongon.png";
+import SanJose from "../assets/logo-san-jose.png";
 import Information from "./Information";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   useEffect(() => {
@@ -52,76 +54,109 @@ export default function Home() {
             </h1>
           </div>
 
-          <div
-            id="item-hamtic"
-            className="col s12 item-box relative"
-            onClick={() => (window.location.href = "/hamtic")}
-          >
-            <div className="row items-center item-box p-3 waves-effect waves-light">
-              <div className="col s8">
-                <h1 className="text-3xl text-white">Municipality of Hamtic</h1>
+          <div id="item-hamtic" className="col s12 item-box relative">
+            <Link to="/hamtic">
+              <div className="row items-center item-box p-3 waves-effect waves-light">
+                <div className="col s8">
+                  <h1 className="text-3xl text-white">
+                    Municipality of Hamtic
+                  </h1>
+                </div>
+                <div className="col s4">
+                  <img
+                    src={Hamtic}
+                    alt="hamtic logo"
+                    width={200}
+                    height={200}
+                  />
+                </div>
               </div>
-              <div className="col s4">
-                <img src={Hamtic} alt="hamtic logo" width={200} height={200} />
-              </div>
-            </div>
+            </Link>
           </div>
 
-          <div
-            id="item-belison"
-            className="col s12 item-box relative"
-            onClick={() => (window.location.href = "/belison")}
-          >
-            <div className="row items-center item-box p-3 waves-effect waves-light">
-              <div className="col s8">
-                <h1 className="text-3xl text-white">Municipality of Belison</h1>
+          <div id="item-belison" className="col s12 item-box relative">
+            <Link to="/belison">
+              <div className="row items-center item-box p-3 waves-effect waves-light">
+                <div className="col s8">
+                  <h1 className="text-3xl text-white">
+                    Municipality of Belison
+                  </h1>
+                </div>
+                <div className="col s4">
+                  <img
+                    src={Belison}
+                    alt="belison logo"
+                    width={200}
+                    height={200}
+                  />
+                </div>
               </div>
-              <div className="col s4">
-                <img src={Belison} alt="hamtic logo" width={200} height={200} />
-              </div>
-            </div>
+            </Link>
           </div>
 
-          <div
-            id="item-sibalom"
-            className="col s12 item-box relative"
-            onClick={() => (window.location.href = "/sibalom")}
-          >
-            <div className="row items-center item-box p-3 waves-effect waves-light">
-              <div className="col s8">
-                <h1 className="text-3xl text-white">Municipality of Sibalom</h1>
+          <div id="item-sibalom" className="col s12 item-box relative">
+            <Link to="/sibalom">
+              <div className="row items-center item-box p-3 waves-effect waves-light">
+                <div className="col s8">
+                  <h1 className="text-3xl text-white">
+                    Municipality of Sibalom
+                  </h1>
+                </div>
+                <div className="col s4">
+                  <img
+                    src={Sibalom}
+                    alt="sibalom logo"
+                    width={200}
+                    height={200}
+                  />
+                </div>
               </div>
-              <div className="col s4">
-                <img src={Sibalom} alt="hamtic logo" width={200} height={200} />
-              </div>
-            </div>
+            </Link>
           </div>
 
-          <div
-            id="item-patnongon"
-            className="col s12 item-box relative mb-24"
-            onClick={() => (window.location.href = "/patnongon")}
-          >
-            <div className="row items-center item-box p-3 waves-effect waves-light">
-              <div className="col s8">
-                <h1 className="text-3xl text-white">
-                  Municipality of Patnongon
-                </h1>
+          <div id="item-patnongon" className="col s12 item-box relative">
+            <Link to="/patnongon">
+              <div className="row items-center item-box p-3 waves-effect waves-light">
+                <div className="col s8">
+                  <h1 className="text-3xl text-white">
+                    Municipality of Patnongon
+                  </h1>
+                </div>
+                <div className="col s4">
+                  <img
+                    src={Patnongon}
+                    alt="patnongon logo"
+                    width={200}
+                    height={200}
+                  />
+                </div>
               </div>
-              <div className="col s4">
-                <img
-                  src={Patnongon}
-                  alt="hamtic logo"
-                  width={200}
-                  height={200}
-                />
+            </Link>
+          </div>
+
+          <div id="item-san-jose" className="col s12 item-box relative mb-24">
+            <Link to="/san-jose">
+              <div className="row items-center item-box p-3 waves-effect waves-light">
+                <div className="col s8">
+                  <h1 className="text-3xl text-white">
+                    Municipality of San Jose
+                  </h1>
+                </div>
+                <div className="col s4">
+                  <img
+                    src={SanJose}
+                    alt="san jose logo"
+                    width={200}
+                    height={200}
+                  />
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
       <div id="information" className="col s12 h-screen bg-orange-500 p-10">
-        <Information/>
+        <Information />
       </div>
     </>
   );

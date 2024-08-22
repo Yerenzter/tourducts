@@ -5,18 +5,26 @@ import Hamtic from "./Hamtic";
 import Belison from "./Belison";
 import Sibalom from "./Sibalom";
 import Patnongon from "./Patnongon";
+import SanJose from "./SanJose";
 
 import HamticAttractions from "./Attractions/HamticAttractions";
 import BelisonAttractions from "./Attractions/BelisonAttractions";
 import SibalomAttractions from "./Attractions/SibalomAttractions";
 import PatnongonAttractions from "./Attractions/PatnongonAttractions";
+import SanJoseAttractions from "./Attractions/SanJoseAttractions";
+
+import StaMonica from "./Attractions/Hamtic/StaMonica";
+import VistaPaloma from "./Attractions/Belison/VistaPaloma";
+import QueenElizabeth from "./Attractions/Sibalom/QueenElizabeth";
+import Trois from "./Attractions/Patnongon/Trois";
+import Esplanade from "./Attractions/SanJose/Esplanade";
 
 import SibalomProducts from "./Products/SibalomProducts";
 
-import HamticPictures from "./Pictures/HamticPictures";
-import BelisonPictures from "./Pictures/BelisonPictures";
+import StaMonicaPictures from "./Pictures/Hamtic/StaMonicaPictures";
+import VistaPalomaPictures from "./Pictures/Belison/VistaPalomaPictures";
 import SibalomPictures from "./Pictures/SibalomPictures";
-import PatnongonPictures from "./Pictures/PatnongonPictures";
+import TroisPictures from "./Pictures/Patnongon/TroisPictures";
 
 export {
   Home,
@@ -25,13 +33,20 @@ export {
   Belison,
   Sibalom,
   Patnongon,
+  SanJose,
   HamticAttractions,
   BelisonAttractions,
   SibalomAttractions,
   PatnongonAttractions,
+  SanJoseAttractions,
+  StaMonica,
+  VistaPaloma,
+  QueenElizabeth,
+  Trois,
+  Esplanade,
   SibalomProducts,
-  HamticPictures,
-  BelisonPictures,
+  StaMonicaPictures,
+  VistaPalomaPictures,
   SibalomPictures,
-  PatnongonPictures
+  TroisPictures,
 };

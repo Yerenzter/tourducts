@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 export default function Back() {
   return (
@@ -6,9 +6,12 @@ export default function Back() {
       <div className="navbar-fixed absolute">
         <nav className="shadow-none bg-transparent">
           <div className="nav-wrapper bg-transparent px-3">
-            <a href="/" className="text-3xl waves-effect waves-light">
+            <button
+              className="text-3xl waves-effect waves-light"
+              onClick={() => history.back()}
+            >
               <i className="material-icons">arrow_back</i>
-            </a>
+            </button>
           </div>
         </nav>
       </div>
