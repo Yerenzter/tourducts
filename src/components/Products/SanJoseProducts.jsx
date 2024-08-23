@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function SibalomProducts() {
+export default function SanJoseProducts() {
   return (
     <div className="row p-10 gap-y-24">
       <div className="col s9">
@@ -11,7 +11,7 @@ export default function SibalomProducts() {
 
       <div className="col s12 text-center">
         <h2 className="text-white text-2xl">
-          <strong>MUNICIPALITY OF PATNONGON</strong>
+          <strong>MUNICIPALITY OF SAN JOSE</strong>
         </h2>
         <h3 className="text-white">
           <strong>NATIVE PRODUCTS</strong>
@@ -19,12 +19,12 @@ export default function SibalomProducts() {
       </div>
 
       <div className="col s12">
-        <Link to="/sibalom/products/gemstone">
+        <Link to="/san-jose/products/baldone-woodworks">
           <button
             className="btn waves-effect bg-orange-950 text-white w-full justify-center mb-3"
             type="button"
           >
-            <strong>GEMSTONE TREE</strong>
+            <strong>BALDONE WOODWORKS</strong>
           </button>
         </Link>
 

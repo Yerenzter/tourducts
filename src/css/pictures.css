@@ -45,15 +45,59 @@
   background-image: url("../assets/sp-3.png");
 }
 
-
 #pp-1 {
-    background-image: url("../assets/pp-1.jpg");
+  background-image: url("../assets/pp-1.jpg");
 }
 
 #pp-2 {
-    background-image: url("../assets/pp-2.jpg");
+  background-image: url("../assets/pp-2.jpg");
 }
 
 #pp-3 {
-    background-image: url("../assets/pp-3.jpg");
+  background-image: url("../assets/pp-3.jpg");
+}
+
+#esp-1 {
+  background-image: url("../assets/esplanande-1.jpg");
+}
+
+#esp-3 {
+  background-image: url("../assets/esplanade-3.jpg");
+}
+
+#hsp-1 {
+  background-image: url("../assets/happy-sunset.jpg");
+}
+
+#hsp-2 {
+  background-image: url("../assets/happy-sunset-1.jpg");
+}
+
+#hsp-3 {
+  background-image: url("../assets/happy-sunset-2.jpg");
+}
+
+#lbp-1 {
+  background-image: url("../assets/linaw-balud.jpeg");
+}
+
+#lbp-2 {
+  background-image: url("../assets/linaw-balud-1.jpeg");
+}
+
+#lbp-3 {
+  background-image: url("../assets/linaw-balud-2.jpeg");
+}
+
+#ebj-1 {
+  background-image: url("../assets/ebj-1.jpg");
+}
+
+#ebj-2 {
+  background-position: 0 -240px;
+  background-image: url("../assets/ebj-2.jpg");
+}
+
+#ebj-3 {
+  background-image: url("../assets/ebj-3.jpg");
 }

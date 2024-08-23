@@ -1,7 +1,10 @@
 #attraction-hamtic,
-#attraction-belison,
+#attraction-vista-paloma,
+#attraction-happy-sunset,
 #attraction-sibalom,
 #attraction-patnongon,
+#attraction-linaw-balud,
+#attraction-ebj,
 #attraction-esplanade {
   background-position: center;
   background-size: cover;
@@ -12,8 +15,12 @@
   background-image: url("../assets/sta-monica-church.jpeg");
 }
 
-#attraction-belison {
+#attraction-vista-paloma {
   background-image: url("../assets/vista-paloma.jpeg");
+}
+
+#attraction-happy-sunset {
+  background-image: url("../assets/happy-sunset.jpg");
 }
 
 #attraction-sibalom {
@@ -22,6 +29,14 @@
 
 #attraction-patnongon {
   background-image: url("../assets/trois.jpg");
+}
+
+#attraction-linaw-balud {
+  background-image: url("../assets/linaw-balud.jpeg");
+}
+
+#attraction-ebj {
+  background-image: url("../assets/ebj.jpg");
 }
 
 #attraction-esplanade {

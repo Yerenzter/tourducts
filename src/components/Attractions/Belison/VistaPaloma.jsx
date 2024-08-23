@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function VistaPaloma() {
   return (
     <div className="row">
-      <div id="attraction-belison" className="col s12 h-96 relative">
+      <div id="attraction-vista-paloma" className="col s12 h-96 relative">
         <div className="attraction-banner-backdrop h-full grid content-end p-3">
           <h1 className="text-3xl text-white">
             <strong>VISTA PALOMA BEACH RESORT</strong>

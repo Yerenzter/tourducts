@@ -27,12 +27,14 @@ export default function Belison() {
             type="button"
           >
             <strong>Attractions</strong>
-          </button> 
+          </button>
         </Link>
 
-        <button className="btn waves-effect bg-orange-950 text-white rounded w-full justify-center mb-3">
-          <strong>Native Products</strong>
-        </button>
+        <Link to="/belison/products">
+          <button className="btn waves-effect bg-orange-950 text-white rounded w-full justify-center mb-3">
+            <strong>Native Products</strong>
+          </button>
+        </Link>
       </div>
     </div>
   );

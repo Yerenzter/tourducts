@@ -1,16 +1,29 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
+  Baldone,
   Belison,
   BelisonAttractions,
+  BelisonProducts,
+  EBJ,
+  EBJPictures,
   Esplanade,
+  EsplanadePictures,
+  Gemstone,
   Hamtic,
   HamticAttractions,
+  HamticProducts,
+  HappySunset,
+  HappySunsetPictures,
   Home,
+  LinawBalud,
+  LinawBaludPictures,
+  Parangabuhian,
   Patnongon,
   PatnongonAttractions,
   QueenElizabeth,
   SanJose,
   SanJoseAttractions,
+  SanJoseProducts,
   Sibalom,
   SibalomAttractions,
   SibalomPictures,
@@ -53,6 +66,10 @@ export default function App() {
             path="belison/attractions/vista-paloma"
             element={<VistaPaloma />}
           />
+          <Route
+            path="belison/attractions/happy-sunset"
+            element={<HappySunset />}
+          />
           <Route path="sibalom/products" element={<SibalomProducts />} />
           <Route
             path="hamtic/attractions/sta-monica/pictures"
@@ -63,6 +80,10 @@ export default function App() {
             element={<VistaPalomaPictures />}
           />
           <Route
+            path="belison/attractions/happy-sunset/pictures"
+            element={<HappySunsetPictures />}
+          />
+          <Route
             path="sibalom/attractions/queen-elizabeth"
             element={<QueenElizabeth />}
           />
@@ -71,18 +92,52 @@ export default function App() {
             element={<Trois />}
           />
           <Route
+            path="patnongon/attractions/linaw-balud"
+            element={<LinawBalud />}
+          />
+          <Route
+            path="san-jose/attractions/ebj-freedom-park"
+            element={<EBJ />}
+          />
+          <Route
             path="san-jose/attractions/esplanade"
             element={<Esplanade />}
           />
           <Route
-            path="/sibalom/attractions/queen-elizabeth/pictures"
+            path="sibalom/attractions/queen-elizabeth/pictures"
             element={<SibalomPictures />}
           />
           <Route
-            path="/patnongon/attractions/trois-resort/pictures"
+            path="patnongon/attractions/trois-resort/pictures"
             element={<TroisPictures />}
           />
-          <Route path="/patnongon/products" element={<Patnongonroducts />} />
+          <Route
+            path="patnongon/attractions/linaw-balud/pictures"
+            element={<LinawBaludPictures />}
+          />
+          <Route
+            path="san-jose/attractions/esplanade/pictures"
+            element={<EsplanadePictures />}
+          />
+          <Route
+            path="san-jose/attractions/ebj-freedom-park/pictures"
+            element={<EBJPictures />}
+          />
+
+          <Route path="hamtic/products" element={<HamticProducts />} />
+          <Route path="belison/products" element={<BelisonProducts />} />
+          <Route path="patnongon/products" element={<Patnongonroducts />} />
+          <Route path="san-jose/products" element={<SanJoseProducts />} />
+
+          <Route path="sibalom/products/gemstone" element={<Gemstone />} />
+          <Route
+            path="patnongon/products/parangabuhian"
+            element={<Parangabuhian />}
+          />
+          <Route
+            path="san-jose/products/baldone-woodworks"
+            element={<Baldone />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>
