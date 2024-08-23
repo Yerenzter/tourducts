@@ -34,7 +34,8 @@ import Baldone from "./Products/SanJose/Baldone";
 import StaMonicaPictures from "./Pictures/Hamtic/StaMonicaPictures";
 import VistaPalomaPictures from "./Pictures/Belison/VistaPalomaPictures";
 import HappySunsetPictures from "./Pictures/Belison/HappySunsetPictures";
-import SibalomPictures from "./Pictures/SibalomPictures";
+import SibalomPictures from "./Pictures/Sibalom/SibalomPictures";
+import GemstonePictures from "./Pictures/Sibalom/GemstonePictures";
 import TroisPictures from "./Pictures/Patnongon/TroisPictures";
 import LinawBaludPictures from "./Pictures/Patnongon/LinawBaludPictures";
 import EsplanadePictures from "./Pictures/SanJose/EsplanadePictures";
@@ -71,6 +72,7 @@ export {
   VistaPalomaPictures,
   HappySunsetPictures,
   SibalomPictures,
+  GemstonePictures,
   TroisPictures,
   LinawBaludPictures,
   EBJ,

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Gemstone() {
   return (
     <div className="row">
@@ -52,14 +54,11 @@ export default function Gemstone() {
       </div>
 
       <div className="col s12 grid justify-items-center absolute right-0 left-0 bottom-0 py-5">
-        <button
-          className="btn bg-orange-950 waves-effect waves-light text-white rounded"
-          onClick={() =>
-            (window.location.href = "/hamtic/attractions/pictures")
-          }
-        >
-          <strong>Pictures</strong>
-        </button>
+        <Link to="/sibalom/products/gemstone/pictures">
+          <button className="btn bg-orange-950 waves-effect waves-light text-white rounded">
+            <strong>Pictures</strong>
+          </button>
+        </Link>
       </div>
     </div>
   );

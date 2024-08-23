@@ -9,6 +9,7 @@ import {
   Esplanade,
   EsplanadePictures,
   Gemstone,
+  GemstonePictures,
   Hamtic,
   HamticAttractions,
   HamticProducts,
@@ -106,6 +107,10 @@ export default function App() {
           <Route
             path="sibalom/attractions/queen-elizabeth/pictures"
             element={<SibalomPictures />}
+          />
+          <Route
+            path="sibalom/products/gemstone/pictures"
+            element={<GemstonePictures />}
           />
           <Route
             path="patnongon/attractions/trois-resort/pictures"
