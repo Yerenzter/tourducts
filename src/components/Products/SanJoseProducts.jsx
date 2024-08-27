@@ -30,7 +30,8 @@ export default function SanJoseProducts() {
 
         <Link to="/san-jose/attractions/esplanade">
           <button
-            className="btn disabled waves-effect bg-orange-950 text-white w-full justify-center mb-3"
+            className="btn disabled waves-effect bg-orange-950 text-white w-full
+            justify-center mb-3 hidden"
             type="button"
           >
             <strong>UNAVAILABLE</strong>
