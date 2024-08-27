@@ -123,7 +123,7 @@ export default function App() {
             element={<LinawBaludPictures />}
           />
           <Route
-            path="patnonongon/products/parangabuhian/pictures"
+            path="patnongon/products/parangabuhian/pictures"
             element={<ParangabuhianPictures />}
           />
           <Route
