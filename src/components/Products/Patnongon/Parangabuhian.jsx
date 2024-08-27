@@ -101,7 +101,7 @@ export default function Parangabuhian() {
       </div>
 
       <div className="col s12 grid justify-items-center fixed right-0 left-0 bottom-0 py-5">
-        <Link to="/patnonongon/products/parangabuhian/pictures">
+        <Link to="/patnongon/products/parangabuhian/pictures">
           <button className="btn bg-orange-950 waves-effect waves-light text-white rounded">
             <strong>Pictures</strong>
           </button>
