@@ -36,7 +36,7 @@ export default function Baldone() {
       </div>
 
       <div className="col s12 grid justify-items-center absolute right-0 left-0 bottom-0 py-5">
-        <Link to="/patnonongon/products/baldone-woodworks/pictures">
+        <Link to="/san-jose/products/baldone-woodworks/pictures">
           <button className="btn bg-orange-950 waves-effect waves-light text-white rounded">
             <strong>Pictures</strong>
           </button>
