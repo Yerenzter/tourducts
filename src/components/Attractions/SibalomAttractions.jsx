@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom";
+import {
+  Link
+} from "react-router-dom";
 
 export default function SibalomAttractions() {
   return (
@@ -23,7 +25,7 @@ export default function SibalomAttractions() {
           <button
             className="btn waves-effect bg-orange-950 text-white w-full justify-center mb-3"
             type="button"
-          >
+            >
             <strong>QUEEN ELIZABETH ECO PARK INLAND RESORT</strong>
           </button>
         </Link>
@@ -33,7 +35,7 @@ export default function SibalomAttractions() {
             className="btn disabled waves-effect bg-orange-950 text-white w-full
             justify-center mb-3 hidden"
             type="button"
-          >
+            >
             <strong>UNAVAILABLE</strong>
           </button>
         </Link>
