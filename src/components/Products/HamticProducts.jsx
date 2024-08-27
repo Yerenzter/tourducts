@@ -19,23 +19,7 @@ export default function HamticProducts() {
       </div>
 
       <div className="col s12">
-        <Link to="/san-jose/attractions/ebj-freedom-park">
-          <button
-            className="btn disabled waves-effect bg-orange-950 text-white w-full justify-center mb-3"
-            type="button"
-          >
-            <strong>UNAVAILABLE</strong>
-          </button>
-        </Link>
-
-        <Link to="/san-jose/attractions/esplanade">
-          <button
-            className="btn disabled waves-effect bg-orange-950 text-white w-full justify-center mb-3"
-            type="button"
-          >
-            <strong>UNAVAILABLE</strong>
-          </button>
-        </Link>
+        <h1 className="text-center text-white text-3xl">NO DATA</h1>
       </div>
     </div>
   );
