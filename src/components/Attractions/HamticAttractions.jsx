@@ -30,7 +30,8 @@ export default function HamticAttractions() {
 
         <Link to="/belison/attractions/happy-sunset">
           <button
-            className="btn disabled waves-effect bg-orange-950 text-white w-full justify-center mb-3"
+            className="btn disabled waves-effect bg-orange-950 text-white w-full
+            justify-center mb-3 hidden"
             type="button"
           >
             <strong>UNAVAILABLE</strong>
