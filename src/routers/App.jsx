@@ -39,6 +39,8 @@ import {
 } from "../components";
 import Back from "./Back";
 import Patnongonroducts from "../components/Products/PatnongonProducts";
+import ParangabuhianPictures from "../components/Pictures/Patnongon/ParangabuhianPictures";
+import BaldonePictures from "../components/Pictures/SanJose/BaldonePicture";
 
 export default function App() {
   return (
@@ -121,12 +123,20 @@ export default function App() {
             element={<LinawBaludPictures />}
           />
           <Route
+            path="patnonongon/products/parangabuhian/pictures"
+            element={<ParangabuhianPictures />}
+          />
+          <Route
             path="san-jose/attractions/esplanade/pictures"
             element={<EsplanadePictures />}
           />
           <Route
             path="san-jose/attractions/ebj-freedom-park/pictures"
             element={<EBJPictures />}
+          />
+          <Route
+            path="san-jose/products/baldone-woodworks/pictures"
+            element={<BaldonePictures />}
           />
 
           <Route path="hamtic/products" element={<HamticProducts />} />
